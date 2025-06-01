@@ -153,7 +153,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Thu29May2025055135GMT14kewq
+          graphName: !<str> AlSubGraph_Sun01Jun2025132726GMT817u4vu
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -199,7 +199,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Thu29May2025055135GMT14kewq
+          graphName: !<str> AlSubGraph_Sun01Jun2025132726GMT817u4vu
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -214,7 +214,7 @@ entities:
         guid: {a: 5388302575148860116, b: 17623323723348875409}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5243659096265262518-13790554453005146271.material}
+          - {localId: 1, path: material/4624653801885214192-6280934140579821466.material}
         sortingOrder: 0
         autoSortingOrder: true
         useFrustumCulling: true

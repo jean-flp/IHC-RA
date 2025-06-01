@@ -1,0 +1,29 @@
+[
+  {
+    "guid": {
+      "a": "369a5a73-a65b-a756-84f0-54a920d8c97e",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Segmentation Material",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.6.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "C:\\Users\\Emanu\\AppData\\Local\\Effect House\\Resources\\BuiltinResource\\InternalPlugins\\Segmentation\\PluginResource\\materials\\Default_Segmentation_Material.omtl",
+    "skinObjGuid": "Guid(5030135598901735352, 16501057790076771512)",
+    "references": [
+      {
+        "propertyName": "_SegTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_MainTex",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      }
+    ],
+    "currAuslVersion": "1.0.0"
+  }
+]
