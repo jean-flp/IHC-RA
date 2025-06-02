@@ -199,7 +199,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Mon02Jun2025010158GMT274keh3
+          graphName: !<str> AlSubGraph_Mon02Jun2025011955GMT752h0bq
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -397,7 +397,7 @@ entities:
     name: !<str> Contagem
     guid: {a: 5652860079109849024, b: 11621128558317390751}
     scene: {localId: 1}
-    selfvisible: false
+    selfvisible: true
     components:
       - {localId: 17}
       - __class: JSScriptComponent
@@ -616,7 +616,7 @@ entities:
         guid: {a: 4709236480820933235, b: 9663164572905126529}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/4868416980439780102-6495635740136868259.material}
+          - {localId: 1, path: material/5748010093028736973-10519608262801350818.material}
         sortingOrder: 3
         autoSortingOrder: true
         useFrustumCulling: true
@@ -625,7 +625,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: 5e018c6a-3518-07be-8d7e-06d84f235c5b--5e018c6a-3518-07be-8d7e-06d84f235c5b.png}
+        texture: {localId: 1, path: 9628f810-6d35-a8cf-c741-9648d240d1e0--9628f810-6d35-a8cf-c741-9648d240d1e0.png}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -1010,7 +1010,7 @@ parent: {localId: 16}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: 17.6101, y: 211.0001}
+anchoredPosition: {x: 17.61009, y: 211.0001}
 sizeDelta: {x: 394.7352, y: 640.7083}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
@@ -1020,7 +1020,7 @@ enablePivotMatrix: true
 name: !<str> ""
 guid: {a: 5151181214089916481, b: 10498664138339673529}
 enabled: true
-localPosition: {x: -1.142187, y: -1.63875, z: -40}
+localPosition: {x: 0.6659899, y: 0, z: -40}
 localScale: {x: 0.3, y: 0.3, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 16}
@@ -1030,7 +1030,7 @@ children:
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: -36.55, y: -52.44}
+anchoredPosition: {x: 21.31167, y: -1.525879e-05}
 sizeDelta: {x: 720, y: 1280}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
