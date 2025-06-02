@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "4f19656c-37bf-93af-0322-a5f29c9cdef5",
+      "a": "9a058e38-f4b0-5f67-6e6a-4be7ccba28b2",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "png-clipart-circle-black-and-white-circle-angle-white",
+    "name": "button_xbox_digital_a_4",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture",

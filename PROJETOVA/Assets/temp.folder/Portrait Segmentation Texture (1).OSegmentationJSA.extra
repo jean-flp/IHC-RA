@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "3ae014c7-165c-c732-45fb-2c52bdf1614a",
+      "b": ""
+    },
+    "extraType": "JSAssetSegmentation",
+    "name": "Portrait Segmentation Texture (1)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
