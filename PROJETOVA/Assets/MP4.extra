@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "a7535891-3f62-82b5-04a2-e4f7291c59ea",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "MP4",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

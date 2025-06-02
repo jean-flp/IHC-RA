@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "a64f030a-e804-88f9-c645-93950c4feba0",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "circle",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "C:\\Users\\Emanu\\AppData\\Local\\Effect House\\Resources\\BuiltinResource\\assets\\jsAssets\\default.animTex"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "10109b54-d125-00d5-2af6-9abb9a09a1f3",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "MP4 Textures",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "3ae014c7-165c-c732-45fb-2c52bdf1614a",
+      "a": "195df22d-6046-4a38-dbe1-6bf957a81c65",
       "b": ""
     },
-    "extraType": "JSAssetSegmentation",
-    "name": "Portrait Segmentation Texture (1)",
+    "extraType": "JSAssetMP4",
+    "name": "Rippleeffect_1",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture",

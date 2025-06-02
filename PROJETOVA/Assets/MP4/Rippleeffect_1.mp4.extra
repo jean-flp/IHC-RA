@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "fbcc3551-6284-e575-104a-0b2307a0c922",
+      "b": ""
+    },
+    "extraType": "ResItemMP4",
+    "name": "Rippleeffect_1",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "VideoAsset",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "alphaBlend": false,
+    "resourceFilePath": "C:\\Users\\Emanu\\Downloads\\Rippleeffect_1.mp4"
+  }
+]

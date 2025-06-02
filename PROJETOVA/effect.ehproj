@@ -1,6 +1,6 @@
 {
   "name": "",
-  "lastModified": "Mon, 02 Jun 2025 00:06:36 GMT",
+  "lastModified": "Mon, 02 Jun 2025 01:03:22 GMT",
   "version": "4.14.3",
   "renderNames": {
     "0": "Default Layer",
@@ -68,9 +68,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 1212871233,
-  "durationCreation": 28991934,
-  "durationBackground": 15519654,
+  "durationToCreate": 1216277036,
+  "durationCreation": 30911970,
+  "durationBackground": 15924057,
   "effectHint": "",
   "templateID": "templateID_none",
   "overwriteBuiltinGAN": 1,
@@ -95,8 +95,10 @@
   },
   "fromNewUserGuide": false,
   "soundStartTime": 0,
-  "selectedIdList": [],
-  "lastSceneView": 0,
+  "selectedIdList": [
+    "amz:Guid(5438375460664446334, 5115709627499253174)"
+  ],
+  "lastSceneView": 1,
   "effectSize": 840862,
   "effectPackagePath": "C:\\Users\\Jean\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\Submit\\package\\effect.zip",
   "effectUploadResult": {

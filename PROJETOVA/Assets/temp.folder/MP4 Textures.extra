@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "8636b846-294e-04e9-7a13-748c5e4b7252",
+      "a": "5755aa13-79b2-85da-b3f4-4277f1ebc3de",
       "b": ""
     },
     "extraType": "ResItemFolder",
-    "name": "Prefabs",
-    "expandInPanel": false,
+    "name": "MP4 Textures",
+    "expandInPanel": true,
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,

@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "0949f1ee-9765-062c-6e46-8a9b38d5f810",
+      "a": "36e64df7-6b9b-7c5c-02c8-973b1dce07d2",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "button_xbox_digital_a_4 (1)",
+    "name": "approachcircle2x",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture",
@@ -22,7 +22,6 @@
     "premultiplyAlpha": false,
     "compressionType": 0,
     "quality": 0,
-    "maxResolution": 512,
-    "resourceFilePath": "C:\\Users\\Emanu\\Desktop\\XBOX BUTTONS - Premium Assets\\Digital Buttons\\ABXY\\button_xbox_digital_a_4.png"
+    "maxResolution": 512
   }
 ]
