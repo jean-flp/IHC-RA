@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "d5ded8a9-7ae9-88cd-1bb2-5ab2a63c8c31",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "ra (2)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "C:\\Users\\Ryan\\AppData\\Local\\Effect House\\Resources\\BuiltinResource\\assets\\jsAssets\\default.animTex"
+  }
+]

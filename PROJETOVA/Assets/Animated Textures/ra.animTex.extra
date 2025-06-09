@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "43c5ee63-66ca-b378-baa4-4d56fe9a5084",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "ra",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

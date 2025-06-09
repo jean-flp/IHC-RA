@@ -52,7 +52,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 7}
+      - {localId: 13}
       - __class: EffectNode
         name: !<str> ""
         guid: {a: 5046406723228920422, b: 13149626467710563462}
@@ -75,7 +75,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 10}
+      - {localId: 16}
       - __class: EffectNode
         name: !<str> ""
         guid: {a: 5574239758673817143, b: 791386522380124844}
@@ -96,7 +96,7 @@ entities:
     name: !<str> General
     guid: {a: 8235238043598186243, b: 16840308208679013795}
     scene: {localId: 1}
-    selfvisible: false
+    selfvisible: true
     components:
       - {localId: 3}
       - __class: EffectNode
@@ -199,7 +199,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Mon02Jun2025011955GMT752h0bq
+          graphName: !<str> AlSubGraph_Mon09Jun2025131502GMT414lj00
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -208,7 +208,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 15}
+      - {localId: 21}
       - __class: EffectNode
         name: !<str> ""
         guid: {a: 5419526730362446248, b: 14486760996181888404}
@@ -231,7 +231,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 16}
+      - {localId: 22}
       - __class: Camera
         name: !<str> ""
         guid: {a: 4728399600410238716, b: 18146350119626296211}
@@ -272,7 +272,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 11}
+      - {localId: 17}
       - __class: Camera
         name: !<str> ""
         guid: {a: 4759590610510407937, b: 3000260287441192841}
@@ -313,7 +313,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 12}
+      - {localId: 18}
     layer: 0
   - __class: Entity
     name: !<str> Background
@@ -321,13 +321,13 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 13}
+      - {localId: 19}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 4872731697666633070, b: 1204899060241900977}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5463271617834121246-15197360909710114234.material}
+          - {localId: 1, path: material/4955563913757274765-3509194411181600158.material}
         sortingOrder: 1
         autoSortingOrder: true
         useFrustumCulling: true
@@ -360,7 +360,7 @@ entities:
     scene: {localId: 1}
     selfvisible: false
     components:
-      - {localId: 14}
+      - {localId: 20}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 4979822503449867175, b: 6434259151629217727}
@@ -399,7 +399,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 17}
+      - {localId: 26}
       - __class: JSScriptComponent
         name: !<str> ""
         guid: {a: 4626334116528002928, b: 14050579297589636764}
@@ -508,7 +508,7 @@ entities:
           shadowEnable: false
           shadowSmooth: 0
           shadowSmoothVersion: 1
-          sortingOrder: 6
+          sortingOrder: 9
           textAdaptiveCanvasEnabled: false
           textinputLock: false
           underline: false
@@ -521,7 +521,7 @@ entities:
     scene: {localId: 1}
     selfvisible: false
     components:
-      - {localId: 9}
+      - {localId: 15}
       - __class: MeshRenderer
         name: !<str> ""
         guid: {a: 5184950036864631697, b: 5640657451560070326}
@@ -546,7 +546,7 @@ entities:
           __class: EffectFaceMakeupType
           value: FACEU_MASK
         templateMaterials:
-          - {localId: 1, path: material/5241029287316205503-13778951249336641926.material}
+          - {localId: 1, path: material/5272919977484371043-10360497096912490898.material}
         dynamicRenderChain: false
         faceIds: [0, 1, 2, 3, 4]
         facemakeupEntityName: !<str> Face Mask
@@ -569,7 +569,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 8}
+      - {localId: 14}
       - __class: Camera
         name: !<str> ""
         guid: {a: 5393973150861758265, b: 13243877229069167546}
@@ -610,14 +610,14 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 18}
+      - {localId: 23}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 4709236480820933235, b: 9663164572905126529}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5748010093028736973-10519608262801350818.material}
-        sortingOrder: 3
+          - {localId: 1, path: material/5393423734904933845-17805569177926476219.material}
+        sortingOrder: 6
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -649,14 +649,14 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 19}
+      - {localId: 24}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5704786153600564918, b: 3369672394286382774}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5064804759140777527-17482021973379280806.material}
-        sortingOrder: 4
+          - {localId: 1, path: material/5451254653136881676-5805343288416434072.material}
+        sortingOrder: 7
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -688,14 +688,14 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 21}
+      - {localId: 25}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5478582731563564726, b: 10445607158254803638}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5688862513666877992-4608196925607393165.material}
-        sortingOrder: 5
+          - {localId: 1, path: material/5153046005051964887-11972868385138919609.material}
+        sortingOrder: 8
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -762,7 +762,7 @@ entities:
           pointsPath:
             - {x: 1.4, y: 1.4, z: 1.4}
             - {x: 3, y: 3, z: 3}
-          sceneObjectTransform: {localId: 21}
+          sceneObjectTransform: {localId: 25}
           showEnd2D: false
           showEnd3D: false
           showEndColor: false
@@ -780,6 +780,327 @@ entities:
           transform3D: true
           typePath: !<str> Curve
           valueType: !<str> ThreeD
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D Scene Object
+    guid: {a: 4808876825049476595, b: 10399391966823988879}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: !<str> Start
+    guid: {a: 5157177048831710876, b: 1113864088490911131}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 10}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5434130306042609383, b: 3604846010407917737}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/5212425130623635042-11054225171052155024.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: f6837416-02ac-a7d7-3b54-60dce0a40476}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: !<str> Face Binding (1)
+    guid: {a: 5194347012073599953, b: 15920637205583872174}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 5353085308233141571, b: 3327395966996488886}
+        enabled: true
+        path: !<str> js/FaceBindingV2.js
+        properties:
+          __class: Map
+          algNode: !<str> facefitting_3d_0
+          algType: 1
+          anchorIdx: 0
+          customAnchorOffset: {x: 0, y: 0, z: 0}
+          extraType: !<str> FaceBindingV2JS
+          faceIdx: 0
+          graphName: !<str> AlSubGraph_Mon09Jun2025131502GMT414lj00
+          physicalFovy: true
+    layer: 0
+  - __class: Entity
+    name: !<str> Head
+    guid: {a: 4749828000431432188, b: 4400384995102590593}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: MeshRenderer
+        name: !<str> ""
+        guid: {a: 5451313447279477824, b: 17942851558204046222}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: false
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000708}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> Random
+    guid: {a: 4733274072174783709, b: 15326317431648352435}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 4940060576892172381, b: 12607498910778226089}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/5500049733782564527-17166259427044644251.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: f6837416-02ac-a7d7-3b54-60dce0a40476}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: !<str> Audio Player
+    guid: {a: 5609548368252689744, b: 11878309169393494700}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: JSScriptComponent
+        name: !<str> AudioComponent
+        guid: {a: 5188244704104225238, b: 13505111250309692802}
+        enabled: true
+        path: !<str> js/AudioComponent.js
+        properties:
+          __class: Map
+          audioType: !<str> Bgm
+          autoPlay: false
+          duration: 223464
+          extraType: !<str> AudioComponent
+          isPreview: false
+          loopAmount: 1
+          mute: false
+          playMode: !<str> Once
+          resPath: !<str> audio/dbd7a985-54d3-4a93-c0e1-96e79458b683.mp3
+          volume: 100
+    layer: 0
+  - __class: Entity
+    name: !<str> Mensagem texto erro
+    guid: {a: 5215411688019825601, b: 16538941146236714909}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 27}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 4613498039540312091, b: 10597373370514824624}
+        enabled: true
+        path: !<str> js/Text.js
+        properties:
+          __class: Map
+          TextGlowMaterial: {localId: 1, path: 00000000-0000-0000-0000-000000001559--00000000-0000-0000-0000-000000001559.material}
+          TextNeonGlowMaterial: {localId: 1, path: 00000000-0000-0000-0000-000000001568--00000000-0000-0000-0000-000000001568.material}
+          artText: {localId: 1, path: 00000000-0000-0000-0000-000000008000--00000000-0000-0000-0000-000000008000.ata}
+          autoSortingOrder: true
+          backgroundEnable: false
+          bloomColor: {r: 1, g: 1, b: 1, a: 1}
+          bloomOption: !<str> OutWard
+          bold: false
+          canvasSize: {x: 720, y: 1280}
+          enableRTL: true
+          extraType: !<str> TextJS
+          fontSize: 60
+          fontType: !<str> Bold.ttf
+          forceUpdateArtText: false
+          glow: false
+          glowHorizontalAngle: 0
+          glowIntensity: 0.5
+          glowRange: 0.5
+          glowVerticalAngle: 0
+          hasScreenTransform: true
+          horizontalAlignment: 1
+          innerShadowAlpha: 0.9
+          innerShadowAngle: -30
+          innerShadowColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+          innerShadowDistance: 5
+          innerShadowEnable: false
+          innerShadowFillMode: 0
+          innerShadowGradientAngle: 90
+          innerShadowGradientColor1: {r: 0, g: 0, b: 0, a: 1}
+          innerShadowGradientColor2: {r: 0, g: 0, b: 0, a: 1}
+          innerShadowGradientColor3: {r: 0, g: 0, b: 0, a: 1}
+          innerShadowGradientColorPos1: 0
+          innerShadowGradientColorPos2: 1
+          innerShadowGradientColorPos3: 0.5
+          innerShadowGradientQuality: 0
+          innerShadowGradientRangeMode: 1
+          innerShadowSmooth: 0
+          innerShadowTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+          innerShadowTextureAlpha: 1
+          innerShadowTextureAngle: 0
+          innerShadowTextureFlipX: false
+          innerShadowTextureFlipY: false
+          innerShadowTextureOffsetX: 0
+          innerShadowTextureOffsetY: 0
+          innerShadowTextureRange: -1
+          innerShadowTextureScale: 1
+          input: !<str> "Respire fundo e \ntente novamente. \nConcentre-se!"
+          italic: false
+          letterAlpha: 1
+          letterBgAlpha: 1
+          letterBgColor: {r: 0, g: 0, b: 0, a: 1}
+          letterBgFillMode: 0
+          letterBgGradientAngle: 90
+          letterBgGradientColor1: {r: 0, g: 0, b: 0, a: 1}
+          letterBgGradientColor2: {r: 0, g: 0, b: 0, a: 1}
+          letterBgGradientColor3: {r: 0, g: 0, b: 0, a: 1}
+          letterBgGradientColorPos1: 0
+          letterBgGradientColorPos2: 1
+          letterBgGradientColorPos3: 0.5
+          letterBgGradientQuality: 0
+          letterBgHeightCustomized: 0
+          letterBgRoundRadiusScale: 0
+          letterBgTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+          letterBgTextureOffsetX: 0
+          letterBgTextureOffsetY: 0
+          letterBgTextureScale: 1
+          letterBgWidthCustomized: 0
+          letterColor: {r: 0.3229167, g: 0.8333333, b: 0.7205044, a: 1}
+          letterFillMode: 0
+          letterGradientAngle: 90
+          letterGradientColor1: {r: 1, g: 1, b: 1, a: 1}
+          letterGradientColor2: {r: 1, g: 1, b: 1, a: 1}
+          letterGradientColor3: {r: 1, g: 1, b: 1, a: 1}
+          letterGradientColorPos1: 0
+          letterGradientColorPos2: 1
+          letterGradientColorPos3: 0.5
+          letterGradientQuality: 0
+          letterGradientRangeMode: 1
+          letterSpacing: 0
+          letterTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+          letterTextureAlpha: 1
+          letterTextureAngle: 0
+          letterTextureFlipX: false
+          letterTextureFlipY: false
+          letterTextureOffsetX: 0
+          letterTextureOffsetY: 0
+          letterTextureRange: -1
+          letterTextureScale: 1
+          lineBreakType: 1
+          lineSpacing: 0
+          outlineAlpha: 1
+          outlineColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+          outlineEnable: false
+          outlineLayers:
+            - {localId: 30}
+          outlineWidth: 30
+          shadowAlpha: 0.9
+          shadowAngle: -45
+          shadowColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+          shadowDistance: 10
+          shadowEnable: false
+          shadowSmooth: 0
+          shadowSmoothVersion: 1
+          sortingOrder: 11
+          textAdaptiveCanvasEnabled: false
+          textinputLock: false
+          underline: false
+          verticalAlignment: 1
+          writingDirection: 0
+    layer: 0
+  - __class: Entity
+    name: !<str> Imagem erro
+    guid: {a: 4768346258892983788, b: 6045020169167740043}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 28}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5452964589800377910, b: 13576521143543557787}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/4790397062649561179-9336772595571608717.material}
+        sortingOrder: 13
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 60933444-af15-7fcc-bc45-75a3d30f2392--60933444-af15-7fcc-bc45-75a3d30f2392.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
     layer: 0
 visible: true
 config:
@@ -823,6 +1144,8 @@ children:
   - {localId: 4}
   - {localId: 5}
   - {localId: 6}
+  - {localId: 7}
+  - {localId: 12}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -861,11 +1184,12 @@ mobility:
   value: Dynamic
 --- !Transform &7
 name: !<str> ""
-guid: {a: 4647710964301177463, b: 12286455891077590688}
+guid: {a: 5642249209614304527, b: 13921406789106383266}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
 children:
   - {localId: 8}
   - {localId: 9}
@@ -874,18 +1198,7 @@ mobility:
   value: Dynamic
 --- !Transform &8
 name: !<str> ""
-guid: {a: 4928505494504718426, b: 11444994238798002088}
-enabled: true
-localPosition: {x: 0, y: 0, z: 40}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 7}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &9
-name: !<str> ""
-guid: {a: 5229801242414688828, b: 9802336935922932397}
+guid: {a: 5690413564659035582, b: 1226929897929380795}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -894,7 +1207,95 @@ parent: {localId: 7}
 mobility:
   __class: Mobility
   value: Dynamic
+--- !ScreenTransform &9
+name: !<str> ""
+guid: {a: 5142441176302308107, b: 16303146782318609334}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 7}
+children:
+  - {localId: 10}
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
 --- !Transform &10
+name: !<str> ""
+guid: {a: 5718433659190607826, b: 6566226304649169286}
+enabled: true
+localPosition: {x: 0, y: 12, z: 5}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: !<str> ""
+guid: {a: 4968587064932387571, b: 3263185954835407006}
+enabled: true
+localPosition: {x: 0, y: 12, z: 5}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: !<str> ""
+guid: {a: 5006865335273042362, b: 15561773489068662696}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: !<str> ""
+guid: {a: 4647710964301177463, b: 12286455891077590688}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 14}
+  - {localId: 15}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: !<str> ""
+guid: {a: 4928505494504718426, b: 11444994238798002088}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: !<str> ""
+guid: {a: 5229801242414688828, b: 9802336935922932397}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
 name: !<str> ""
 guid: {a: 4682174988701795129, b: 7595135021827286707}
 enabled: true
@@ -902,34 +1303,34 @@ localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
-  - {localId: 11}
+  - {localId: 17}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &11
+--- !Transform &17
 name: !<str> ""
 guid: {a: 5494005343129359868, b: 4368108589604113546}
 enabled: true
 localPosition: {x: 0, y: 0, z: 40}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 10}
+parent: {localId: 16}
 children:
-  - {localId: 12}
+  - {localId: 18}
 mobility:
   __class: Mobility
   value: Dynamic
---- !ScreenTransform &12
+--- !ScreenTransform &18
 name: !<str> ""
 guid: {a: 5232806492538040326, b: 13050611045819375015}
 enabled: true
 localPosition: {x: 0, y: 0, z: -40}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 11}
+parent: {localId: 17}
 children:
-  - {localId: 13}
-  - {localId: 14}
+  - {localId: 19}
+  - {localId: 20}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -939,14 +1340,14 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0, y: 1, z: 0, w: 1}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !ScreenTransform &13
+--- !ScreenTransform &19
 name: !<str> ""
 guid: {a: 5208785029386826688, b: 16558370667538861229}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
+parent: {localId: 18}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -956,14 +1357,14 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0, y: 1, z: 0, w: 1}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !ScreenTransform &14
+--- !ScreenTransform &20
 name: !<str> ""
 guid: {a: 4931916424419798473, b: 1184525683726947736}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
+parent: {localId: 18}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -973,7 +1374,7 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0, y: 1, z: 0, w: 1}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !Transform &15
+--- !Transform &21
 name: !<str> ""
 guid: {a: 4859958059217222684, b: 9704889663572038565}
 enabled: true
@@ -981,69 +1382,54 @@ localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
-  - {localId: 16}
+  - {localId: 22}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &16
+--- !Transform &22
 name: !<str> ""
 guid: {a: 5592757122878558656, b: 3068792521423268758}
 enabled: true
 localPosition: {x: 0, y: 0, z: 40}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 15}
+parent: {localId: 21}
 children:
-  - {localId: 18}
-  - {localId: 17}
+  - {localId: 23}
+  - {localId: 26}
+  - {localId: 27}
+  - {localId: 28}
 mobility:
   __class: Mobility
   value: Dynamic
---- !ScreenTransform &17
-name: !<str> ""
-guid: {a: 5449526273932120617, b: 6018636519330739850}
-enabled: true
-localPosition: {x: 0.5503154, y: 6.593753, z: -40}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.9999902, x: 0, y: 0, z: 0.004423101}
-parent: {localId: 16}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: 17.61009, y: 211.0001}
-sizeDelta: {x: 394.7352, y: 640.7083}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: true
---- !ScreenTransform &18
+--- !ScreenTransform &23
 name: !<str> ""
 guid: {a: 5151181214089916481, b: 10498664138339673529}
 enabled: true
 localPosition: {x: 0.6659899, y: 0, z: -40}
 localScale: {x: 0.3, y: 0.3, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 16}
+parent: {localId: 22}
 children:
-  - {localId: 19}
-  - {localId: 21}
+  - {localId: 24}
+  - {localId: 25}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: 21.31167, y: -1.525879e-05}
+anchoredPosition: {x: 21.31168, y: 0}
 sizeDelta: {x: 720, y: 1280}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !ScreenTransform &19
+--- !ScreenTransform &24
 name: !<str> ""
 guid: {a: 4837231257909154954, b: 15094532100111004309}
 enabled: true
 localPosition: {x: 0.3125, y: 1.5625, z: 0}
 localScale: {x: 3.333333, y: 3.333333, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 18}
+parent: {localId: 23}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1053,14 +1439,120 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !Transform &21
+--- !Transform &25
 name: !<str> ""
 guid: {a: 5246904672132241693, b: 14439129829052286626}
 enabled: true
 localPosition: {x: 0.2, y: 0, z: 0}
 localScale: {x: 4, y: 4, z: 4}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 18}
+parent: {localId: 23}
 mobility:
   __class: Mobility
   value: Dynamic
+--- !ScreenTransform &26
+name: !<str> ""
+guid: {a: 5449526273932120617, b: 6018636519330739850}
+enabled: true
+localPosition: {x: 0.5503154, y: 6.593753, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999902, x: 0, y: 0, z: 0.004423101}
+parent: {localId: 22}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 17.61009, y: 211.0001}
+sizeDelta: {x: 394.7352, y: 640.7083}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !ScreenTransform &27
+name: !<str> ""
+guid: {a: 5488672255056905778, b: 9293367717862731435}
+enabled: true
+localPosition: {x: 0, y: 9.375, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 22}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 300}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !ScreenTransform &28
+name: !<str> ""
+guid: {a: 4886676284539868631, b: 16380007515234328709}
+enabled: true
+localPosition: {x: 0, y: 10.9375, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 22}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 350}
+sizeDelta: {x: 400, y: 400}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !LetterStyleLayer &30
+name: !<str> ""
+guid: {a: 5063504574781850566, b: 13627656692842306721}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 4760413210589398980, b: 13480210513640572828}
+  properties:
+    __class: Map
+    gradientColor1: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor2: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor3: {r: 1, g: 1, b: 1, a: 1}
+    gradientColorPos1: 0
+    gradientColorPos2: 1
+    gradientColorPos3: 0.5
+    gradientQuality: 0
+type:
+  __class: LetterStyleLayerType
+  value: STROKE
+enable: true
+alpha: 1
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+gradientColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+textureNoPremultiply: true
+strokeWidth: 0.05400000140070915
+shadowDistance: 0
+shadowAngle: -45
+shadowFeather: -1
+shadowDiffuse: -1
