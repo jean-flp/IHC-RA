@@ -199,7 +199,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Mon14Jul2025111152GMT525og4z
+          graphName: !<str> AlSubGraph_Mon14Jul2025111337GMT412oafx
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -617,7 +617,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: material/4832485337212085660-14770459538396517782.material}
-        sortingOrder: 7
+        sortingOrder: 8
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -656,7 +656,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: material/5354481930485402485-11394579222388214665.material}
-        sortingOrder: 8
+        sortingOrder: 9
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -695,7 +695,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: material/5394841285837283040-9856729506540311717.material}
-        sortingOrder: 9
+        sortingOrder: 10
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -848,7 +848,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Mon14Jul2025111152GMT525og4z
+          graphName: !<str> AlSubGraph_Mon14Jul2025111337GMT412oafx
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -937,7 +937,7 @@ entities:
           mute: false
           playMode: !<str> Once
           resPath: !<str> audio/dbd7a985-54d3-4a93-c0e1-96e79458b683.mp3
-          volume: 100
+          volume: 50.45
     layer: 0
   - __class: Entity
     name: !<str> Mensagem texto erro
@@ -1056,7 +1056,7 @@ entities:
           shadowEnable: false
           shadowSmooth: 0
           shadowSmoothVersion: 1
-          sortingOrder: 10
+          sortingOrder: 11
           textAdaptiveCanvasEnabled: false
           textinputLock: false
           underline: false
@@ -1178,7 +1178,7 @@ entities:
           shadowEnable: false
           shadowSmooth: 0
           shadowSmoothVersion: 1
-          sortingOrder: 11
+          sortingOrder: 12
           textAdaptiveCanvasEnabled: false
           textinputLock: false
           underline: false
@@ -1585,42 +1585,6 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: true
---- !TextBackground &29
-name: !<str> ""
-guid: {a: 5064291279655814835, b: 11865457826904393610}
-enabled: true
-startIndex: 0
-endIndex: 0
-loop: false
-loopGap: 0
-renderType:
-  __class: TextBackgroundRenderType
-  value: SOLID
-color: {r: 0, g: 0, b: 0, a: 1}
-alpha: 1
-scale: 1
-rotation: 0
-expandX: 0
-expandY: 0
-offsetX: 0
-offsetY: 0
-roundness: 0
-texturePath: !<str> ""
-textureFlipX: false
-textureFlipY: false
-textureScale: 1
-textureAlpha: 1
-textureAngle: 0
-textureStretchMode:
-  __class: ImageStretchMode
-  value: Fit
-textureOffsetX: 0
-textureOffsetY: 0
-extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
-gradientAngle: 90
-gradientStyle:
-  __class: GradientStyle
-  value: Linear
 --- !LetterStyleLayer &30
 name: !<str> ""
 guid: {a: 5679441842331988035, b: 16253197729511490458}
@@ -1676,39 +1640,3 @@ shadowDistance: 0
 shadowAngle: -45
 shadowFeather: -1
 shadowDiffuse: -1
---- !TextBackground &31
-name: !<str> ""
-guid: {a: 5731280499009048193, b: 17636598579395318154}
-enabled: true
-startIndex: 0
-endIndex: 0
-loop: false
-loopGap: 0
-renderType:
-  __class: TextBackgroundRenderType
-  value: SOLID
-color: {r: 0, g: 0, b: 0, a: 1}
-alpha: 1
-scale: 1
-rotation: 0
-expandX: 0
-expandY: 0
-offsetX: 0
-offsetY: 0
-roundness: 0
-texturePath: !<str> ""
-textureFlipX: false
-textureFlipY: false
-textureScale: 1
-textureAlpha: 1
-textureAngle: 0
-textureStretchMode:
-  __class: ImageStretchMode
-  value: Fit
-textureOffsetX: 0
-textureOffsetY: 0
-extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
-gradientAngle: 90
-gradientStyle:
-  __class: GradientStyle
-  value: Linear

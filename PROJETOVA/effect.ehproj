@@ -1,6 +1,6 @@
 {
   "name": "Untitled",
-  "lastModified": "Mon, 14 Jul 2025 04:20:37 GMT",
+  "lastModified": "Mon, 14 Jul 2025 11:22:52 GMT",
   "version": "4.14.3",
   "renderNames": {
     "0": "Default Layer",
@@ -68,9 +68,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 4856912378,
-  "durationCreation": 88068414,
-  "durationBackground": 59463677,
+  "durationToCreate": 4882247367,
+  "durationCreation": 88735781,
+  "durationBackground": 59610453,
   "effectHint": "",
   "templateID": "templateID_none",
   "overwriteBuiltinGAN": 1,
@@ -96,9 +96,9 @@
   "fromNewUserGuide": false,
   "soundStartTime": 0,
   "selectedIdList": [
-    "editor:dbd7a985-54d3-4a93-c0e1-96e79458b683"
+    "amz:Guid(5609548368252689744, 11878309169393494700)"
   ],
-  "lastSceneView": 0,
+  "lastSceneView": 1,
   "effectSize": 8484902,
   "effectPackagePath": "C:\\Users\\Ryan\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\Submit\\package\\effect.zip",
   "effectUploadResult": {
