@@ -199,7 +199,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Mon14Jul2025034238GMT299yrbg
+          graphName: !<str> AlSubGraph_Mon14Jul2025111152GMT525og4z
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -327,7 +327,7 @@ entities:
         guid: {a: 4872731697666633070, b: 1204899060241900977}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5071667336044491018-15256657040354369718.material}
+          - {localId: 1, path: material/4810824212789741913-3253175582243903887.material}
         sortingOrder: 1
         autoSortingOrder: true
         useFrustumCulling: true
@@ -546,7 +546,7 @@ entities:
           __class: EffectFaceMakeupType
           value: FACEU_MASK
         templateMaterials:
-          - {localId: 1, path: material/5719528540895313249-16890814159015119789.material}
+          - {localId: 1, path: material/4994250535549939591-16838131993561747613.material}
         dynamicRenderChain: false
         faceIds: [0, 1, 2, 3, 4]
         facemakeupEntityName: !<str> Face Mask
@@ -616,8 +616,8 @@ entities:
         guid: {a: 4709236480820933235, b: 9663164572905126529}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/4951387969040289696-12861163535242744720.material}
-        sortingOrder: 8
+          - {localId: 1, path: material/4832485337212085660-14770459538396517782.material}
+        sortingOrder: 7
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -655,8 +655,8 @@ entities:
         guid: {a: 5704786153600564918, b: 3369672394286382774}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/4639493743912922451-12553253278480717203.material}
-        sortingOrder: 9
+          - {localId: 1, path: material/5354481930485402485-11394579222388214665.material}
+        sortingOrder: 8
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -694,8 +694,8 @@ entities:
         guid: {a: 5478582731563564726, b: 10445607158254803638}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5603553495796797643-5314998410399828642.material}
-        sortingOrder: 10
+          - {localId: 1, path: material/5394841285837283040-9856729506540311717.material}
+        sortingOrder: 9
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -801,7 +801,7 @@ entities:
         guid: {a: 5434130306042609383, b: 3604846010407917737}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5627843469742221743-6177936572642604462.material}
+          - {localId: 1, path: material/4697477317593398542-9989336662097492654.material}
         sortingOrder: 4
         autoSortingOrder: true
         useFrustumCulling: true
@@ -848,7 +848,7 @@ entities:
           customAnchorOffset: {x: 0, y: 0, z: 0}
           extraType: !<str> FaceBindingV2JS
           faceIdx: 0
-          graphName: !<str> AlSubGraph_Mon14Jul2025034238GMT299yrbg
+          graphName: !<str> AlSubGraph_Mon14Jul2025111152GMT525og4z
           physicalFovy: true
     layer: 0
   - __class: Entity
@@ -887,7 +887,7 @@ entities:
         guid: {a: 4940060576892172381, b: 12607498910778226089}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: material/5070310443573489733-220082325223135627.material}
+          - {localId: 1, path: material/5459492368762141666-13240916874919527606.material}
         sortingOrder: 5
         autoSortingOrder: true
         useFrustumCulling: true
@@ -1056,7 +1056,7 @@ entities:
           shadowEnable: false
           shadowSmooth: 0
           shadowSmoothVersion: 1
-          sortingOrder: 11
+          sortingOrder: 10
           textAdaptiveCanvasEnabled: false
           textinputLock: false
           underline: false
@@ -1178,7 +1178,7 @@ entities:
           shadowEnable: false
           shadowSmooth: 0
           shadowSmoothVersion: 1
-          sortingOrder: 12
+          sortingOrder: 11
           textAdaptiveCanvasEnabled: false
           textinputLock: false
           underline: false
@@ -1585,13 +1585,49 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: true
+--- !TextBackground &29
+name: !<str> ""
+guid: {a: 5064291279655814835, b: 11865457826904393610}
+enabled: true
+startIndex: 0
+endIndex: 0
+loop: false
+loopGap: 0
+renderType:
+  __class: TextBackgroundRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+alpha: 1
+scale: 1
+rotation: 0
+expandX: 0
+expandY: 0
+offsetX: 0
+offsetY: 0
+roundness: 0
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+gradientAngle: 90
+gradientStyle:
+  __class: GradientStyle
+  value: Linear
 --- !LetterStyleLayer &30
 name: !<str> ""
-guid: {a: 4659801471944231258, b: 7376421321757963412}
+guid: {a: 5679441842331988035, b: 16253197729511490458}
 serializedProperty:
   __class: ScriptSerializedProperty
   name: !<str> ""
-  guid: {a: 5368757384595016454, b: 14054627900982815407}
+  guid: {a: 5513974350788273942, b: 4597403470691256733}
   properties:
     __class: Map
     gradientColor1: {r: 1, g: 1, b: 1, a: 1}
@@ -1640,3 +1676,39 @@ shadowDistance: 0
 shadowAngle: -45
 shadowFeather: -1
 shadowDiffuse: -1
+--- !TextBackground &31
+name: !<str> ""
+guid: {a: 5731280499009048193, b: 17636598579395318154}
+enabled: true
+startIndex: 0
+endIndex: 0
+loop: false
+loopGap: 0
+renderType:
+  __class: TextBackgroundRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+alpha: 1
+scale: 1
+rotation: 0
+expandX: 0
+expandY: 0
+offsetX: 0
+offsetY: 0
+roundness: 0
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+gradientAngle: 90
+gradientStyle:
+  __class: GradientStyle
+  value: Linear

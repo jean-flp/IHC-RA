@@ -15,12 +15,12 @@ serializedProperty:
     playMode: 0
     reverse: false
     textureSequence: {localId: 1, path: 00000000-0000-0000-0000-0000000000c4--00000000-0000-0000-0000-0000000000c4.seq}
-width: 2
-height: 2
-depth: 1
+width: 0
+height: 0
+depth: 0
 internalFormat:
   __class: InternalFormat
-  value: RGB8
+  value: RGBA8
 dataType:
   __class: DataType
   value: U8norm
